@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>umsu.ac.id</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">umsu.ac.id</div>
+
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#berita">berita</a></li>
+    <li><a href="#akademik">Akademik</a></li>
+    <li><a href="#sambutan">Sambutan</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+    <div class="nav-right">
+    <button id="darkToggle">🌙</button>
+  <a href="#contact" class="btn">lokasi</a>
+  </div>
+</nav>
+
+<section id="home" class="home">
+
+<div class="slider">
+
+<button class="slide-btn left">&#10094;</button>
+
+<div class="slide-track">
+<img src="img/bg1.jpg" class="slide">
+<img src="img/bg7.jpeg" class="slide">
+<img src="img/bg8.jpeg" class="slide">
+<img src="img/bg9.jpeg" class="slide">
+<img src="img/bg2.jpeg" class="slide">
+</div>
+
+<button class="slide-btn right">&#10095;</button>
+
+</div>
+
+<canvas id="particles"></canvas>
+
+<div class="home-container">
+
+<!-- HOME -->
+
+  <div class="home-container">
+    <div class="home-center">
+      <h1><span>SELAMAT DATANG DI</span></h1>
+      <h1><span>UNIVERSITAS MUHAMMADIYAH SUMATERA UTARA</span></h1>
+      <p>
+        UMSU Adalah Universitas Pertama dan Satu-satunya PTS Akreditasi Unggul di Medan - Sumatera Utara"
+    </div>
+
+ 
+  </div>
+</section>
+
+<section class="statistik">
+
+<div class="stat-grid">
+
+<div class="stat-card">
+<i class="fa-solid fa-user-graduate"></i>
+<h2 class="counter" data-target="25000">0</h2>
+<p>Mahasiswa Aktif</p>
+</div>
+
+<div class="stat-card">
+<i class="fa-solid fa-building-columns"></i>
+<h2 class="counter" data-target="10">0</h2>
+<p>Fakultas</p>
+</div>
+
+<div class="stat-card">
+<i class="fa-solid fa-book"></i>
+<h2 class="counter" data-target="45">0</h2>
+<p>Program Studi</p>
+</div>
+
+<div class="stat-card">
+<i class="fa-solid fa-award"></i>
+<h2 class="counter" data-target="50000">0</h2>
+<p>Alumni</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- berita -->
+<section id="berita" class="section">
+
+<h2 class="title">Berita Terbaru</h2>
+
+<div class="grid">
+
+<div class="card berita-card">
+
+<div class="berita-img">
+<img src="img/bg5.jpeg">
+
+<div class="berita-label">
+<span class="kategori">Kampus</span>
+<span class="tanggal">17 Feb 2026</span>
+</div>
+
+</div>
+
+<h3>Pemko Medan Gandeng OIF UMSU Pantau Hilal Awal Ramadan 1447 Hijriah</h3>
+
+<p>
+Pemerintah Kota Medan kembali menggandeng Observatorium Ilmu Falak (OIF) 
+Universitas Muhammadiyah Sumatera Utara untuk pemantauan hilal awal Ramadan 1447 H.
+</p>
+
+<a href="berita1.html" class="btn">Baca Selengkapnya</a>
+
+</div>
+
+
+<div class="card berita-card">
+
+<div class="berita-img">
+<img src="img/bg6.jpeg">
+
+<div class="berita-label">
+<span class="kategori">Akademik</span>
+<span class="tanggal">16 Feb 2026</span>
+</div>
+
+</div>
+
+<h3>UMSU Kukuhkan Guru Besar Studi Islam</h3>
+
+<p>
+Menteri Pendidikan Dasar dan Menengah RI Prof. Abdul Mu’ti menyoroti krisis 
+kebenaran di era digital saat menghadiri pengukuhan guru besar UMSU.
+</p>
+
+<a href="berita2.html" class="btn">Baca Selengkapnya</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- PORTFOLIO -->
+<section id="akademik" class="akademik">
+
+<div class="section-wrapper">
+
+<div class="section-header">
+<h2 class="section-judul">Program Pendidikan</h2>
+<p class="section-sub">
+UMSU menawarkan berbagai jenjang pendidikan
+berkualitas tinggi untuk masa depanmu.
+</p>
+</div>
+
+<div class="program-grid">
+
+<div class="program-kartu">
+<div class="kartu-ikon"><i class="fa-solid fa-graduation-cap"></i></div>
+<h3 class="kartu-judul">Sarjana (S1)</h3>
+<p class="kartu-deskripsi">
+15 Fakultas dengan 75+ program studi
+terakreditasi nasional dan internasional.
+</p>
+<a href="#" class="kartu-link">Lihat Program →</a>
+</div>
+
+<div class="program-kartu unggulan">
+<div class="kartu-ikon"><i class="fa-solid fa-book-open"></i></div>
+<h3 class="kartu-judul">Pascasarjana (S2 / S3)</h3>
+<p class="kartu-deskripsi">
+Program magister dan doktoral dengan
+riset serta publikasi jurnal internasional.
+</p>
+<a href="#" class="kartu-link">Lihat Program →</a>
+</div>
+
+<div class="program-kartu">
+<div class="kartu-ikon"><i class="fa-solid fa-user-doctor"></i></div>
+<h3 class="kartu-judul">Profesi & Vokasi</h3>
+<p class="kartu-deskripsi">
+Program profesi dokter, apoteker
+serta D3 berbasis kompetensi industri.
+</p>
+<a href="#" class="kartu-link">Lihat Program →</a>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+<section id="sambutan" class="sambutan">
+
+<div class="section-wrapper">
+
+<div class="sambutan-container">
+
+<div class="sambutan-gambar">
+<img src="img/rektor.png" alt="Rektor UMSU Prof. Dr. Agussani, M.AP." class="foto-rektor">
+</div>
+
+<div class="sambutan-teks">
+
+<p class="sambutan-label">Sambutan Rektor</p>
+
+<h2 class="sambutan-nama">
+Prof. Dr. Agussani, M.AP.
+</h2>
+
+<p class="sambutan-isi">
+Universitas Muhammadiyah Sumatera Utara terus berkomitmen
+menghasilkan lulusan yang tidak hanya unggul secara
+akademik, tetapi juga memiliki karakter kuat dan siap
+menghadapi tantangan global.
+</p>
+
+<p class="sambutan-isi">
+Dengan semangat inovasi dan kolaborasi, UMSU akan terus
+berkembang menjadi universitas kelas dunia yang memberi
+manfaat nyata bagi masyarakat dan bangsa Indonesia.
+</p>
+
+<a href="#" class="btn-sambutan">Baca Selengkapnya</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+
+<div class="section-header">
+<h2 class="section-judul">Kontak Kami</h2>
+<p class="section-sub">
+Informasi lokasi dan kontak Universitas Muhammadiyah Sumatera Utara.
+</p>
+</div>
+
+<div class="contact-container">
+
+<div class="contact-item">
+<i class="fa-solid fa-location-dot"></i>
+<div>
+<h4>Alamat</h4>
+<p>Jl. Kapten Mukhtar Basri No.3, Medan</p>
+</div>
+</div>
+
+<div class="contact-item">
+<i class="fa-solid fa-envelope"></i>
+<div>
+<h4>Email</h4>
+<p>info@umsu.ac.id</p>
+</div>
+</div>
+
+<div class="contact-item">
+<i class="fa-solid fa-phone"></i>
+<div>
+<h4>Telepon</h4>
+<p>(061) 6622400</p>
+</div>
+</div>
+
+</div>
+
+<!-- GOOGLE MAPS -->
+
+<div class="map-container">
+
+<iframe
+src="https://www.google.com/maps?q=Universitas+Muhammadiyah+Sumatera+Utara&output=embed"
+loading="lazy">
+</iframe>
+
+</div>
+
+</section>
+
+
+<footer class="footer">
+  © 2026 umsu.ac.id - Universitas Muhammadiyah Sumatera Utara. All rights reserved.edited by muhammad rizqi hidayatullah-240901012.
+</footer>
+
+<script>
+
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
